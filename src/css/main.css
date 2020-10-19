@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: hsl(202, 55%, 10%);
+	background-color: hsl(0, 0%, 90%);
 	width: 100vw;
 	height: 100vh;
 	display: flex;
@@ -12,6 +12,13 @@ body {
 	text-align: center;
 }
 
-.pokeImg {
-	width: 200px;
+h1 {
+	color: hsl(202, 55%, 10%);
+	font-size: 2em;
+	font-family: 'Courier New', Courier, monospace;
+	margin-bottom: 1rem;
 }
+
+/* .pokeImg {
+	width: 200px;
+} */
