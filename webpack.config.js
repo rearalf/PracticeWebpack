@@ -12,6 +12,7 @@ module.exports = {
 	devServer: {
 		contentBase: './dist',
 		port: 9000,
+		open: true,
 	},
 	module: {
 		rules: [
@@ -35,10 +36,9 @@ module.exports = {
 		],
 	},
 	plugins: [
-		new webpack.ProgressPlugin(),
 		new CleanWebpackPlugin(),
 		new HtmlWebpackPlugin({
-			template: './publicn/index.html',
+			template: './public/index.html',
 			filename: './index.html',
 			favicon: './public/favicon.ico',
 		}),

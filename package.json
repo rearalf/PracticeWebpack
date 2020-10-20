@@ -9,13 +9,16 @@
 	},
 	"scripts": {
 		"build": "webpack",
-		"dev": "webpack --watch"
+		"dev": "webpack-cli serve"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/rearalf/PracticeWebpack.git"
 	},
-	"keywords": [ "react", "webpack" ],
+	"keywords": [
+		"react",
+		"webpack"
+	],
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/rearalf/PracticeWebpack/issues"
@@ -31,6 +34,7 @@
 		"@babel/plugin-transform-runtime": "^7.12.1",
 		"@babel/preset-env": "^7.12.1",
 		"@babel/preset-react": "^7.12.1",
+		"@webpack-cli/serve": "^1.0.1",
 		"babel-loader": "^8.1.0",
 		"clean-webpack-plugin": "^3.0.0",
 		"css-loader": "^5.0.0",
