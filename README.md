@@ -1,8 +1,8 @@
 #  <img width="50" align=center src=https://www.vectorlogo.zone/logos/js_webpack/js_webpack-icon.svg /> Webpack
 
-Estos son mis apuntes de como yo voy aprendiendo **Webpack** con ayuda de su documentación y tutoriales que encuentro en internet. 
+Estos son mis apuntes de como yo voy aprendiendo **Webpack** con ayuda de su documentación y tutórales que encuentro en internet.
 
-## :grey_question:¿Que es Webpack? 
+## :grey_question:¿Qué es Webpack? 
 
 Es un empaquetador de módulos o conjunto de reglas para aplicaciones modernas en JS, es una utopía en donde el producto es bueno, barato y rápido ya que nos ayuda a administrar nuestros archivos de manera eficiente para futuras modificaciones, ya que nos hace fácil de manipular dichos archivos. 
 
@@ -63,22 +63,9 @@ npm install -D webpack webpack-cli
 
 El **-D** es igual al **--save-dev** para instalar como dependencia de desarrollo.
 
-Luego de instalarlas puedes probar webpack con un ejemplo como este.
-<br />
-<br />
-
-
-
-<img align=left  style="margin: 0 3%;"  src=./ImgReadme/estructurabasica.jpg /> 
-
 Está seria la estructura usaremos por ahora una carpeta **src** que tendrá todos   nuestros archivos del proyecto. El **.gitignore** para decirle a git que archivos no se  requiere que tenga seguimiento. El **index.hml** para la plantilla html que tomara  webpack. Y el **webpack.config.js** que gracias al cli de webpack configuraremos según nuestras necesidades. En el archivo **index.js** puedes agregar un `console.log('Hello Word')` para comenzar.
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+![Estructura de archivos](./ImgReadme/estructurabasica.jpg)
 
 ### Configuración para empezar el webpack.config.js
 
@@ -246,13 +233,10 @@ Dentro de `src` creas una carpeta llamada `img` y dentro agregas la imagen. Ejec
 
 ## Recopilar 
 
-Asta ahora ya tenemos una templeta de `html`, ya cargamos `css` y cargamos imágenes tendríamos algo así:
+<img width="600" src=./ImgReadme/interludio.jpg />
 
-<br />
-<br />
-<img width="500" src=./ImgReadme/interludio.jpg />
-<br />
-<br />
+Hasta ahora ya tenemos una templeta de `html`, ya cargamos `css` y cargamos imágenes, tendríamos algo así:
+
 
 ## Agregando Babel
 
@@ -429,7 +413,7 @@ devServer: {
 },
 ```
 
-Al ejecutar el comando deberá de abrirse en el navegador el sitio en el puerto 9000 y listo ya tiene un server. Con esto puede hacer cambios en el proyecto y automáticamente vera reflejados los cambios.
+Al ejecutar el comando deberá de abrirse el navegador en el puerto 9000 y listo ya tiene un server. Con esto puede hacer cambios en el proyecto y automáticamente verás reflejados los cambios.
 
 ## Conclusión :end:
 
